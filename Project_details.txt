@@ -1,0 +1,29 @@
+This is the Hotel room project.
+
+If you select the room then based on room, you can select the Adult and children.
+
+Maximum here, you can select only 5 Rooms.
+and check the room selection condition below:
+
+
+1.	 Each of the + or - buttons can be clicked independent of the other
+2.	 At no point of time can an invalid combination of data be possible in the UI
+3.  # Rooms can be minimum 1 and maximum 5
+4.	 # of persons in each room (i.e. total of Adults and Children) can be minimum 1 and
+maximum 4
+5.	 # of Adults can be >= 1 (i.e. a booking should have at least one adult)
+6.	 # of Children can be >= 0
+7.	 # of persons (Adults + Children) can be >= # of rooms (i.e. there should be at least one
+person per room)
+8. If Adult or Child count is increased, the room count can be increased, if required, to
+meet the constraint
+9.  If Adult or Child count is decreased, the room count can be decreased, if required, to
+meet the constraint
+10.  No count can automatically change unless required to meet the constraint
+11. If room count is increased, the adult count can be increased to the extent required to
+meet the constraint
+12.	If room count is decreased, if # of persons exceed maximum allowed, first # of children
+can be reduced upto 0, if present; then # of adults can be reduced to the extent required
+to meet the constraint
+13. Buttons should be disabled if clicking them breaks the constraints. There should be no
+alert messages.
